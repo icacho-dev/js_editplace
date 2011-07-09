@@ -1,0 +1,185 @@
+body
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333333;
+	/*background:url(../img/bg.jpg) no-repeat center top;*/
+	margin:10px 0;
+	font-weight:normal;
+	}
+
+
+img
+	{
+	border:0;
+	}
+
+a
+	{
+	color: #333333;
+	text-decoration:none;
+	}
+
+input
+	{
+	padding:5px;	
+	}
+
+.clear
+	{
+	clear:both;
+	}
+
+#contenedor
+	{
+	margin:0 auto;
+	width:960px;
+	}
+
+#contenedor h1, #contenedor h2, #contenedor h3, #contenedor h4, #contenedor h5, #contenedor h6			{	color: #000000; }
+#contenedor h1, #contenedor h2, #contenedor h3						{	font-family: Arial, Helvetica, sans-serif; margin: 10px 0;}
+#contenedor h4, #contenedor h5, #contenedor h6						{	padding: 5px 0;}
+#contenedor h1 {	font-size: 50px; padding: 10px 0;}
+#contenedor h2 {	font-size: 20px; padding: 10px 0;}
+#contenedor h3 {	padding: 3px 0;}
+#contenedor h4 {	font-size: 14px;}
+#contenedor h5 {	font-size: 12px;}
+#contenedor h6 {	font-size: 10px;line-height: 1.4em;padding: 3px 0;}
+
+
+
+#logo
+	{
+	width:800px;
+	height:90px;
+	float:left;
+	}
+
+#lang
+	{
+	width:100px;
+	height:20px;
+	float:right;
+	}
+
+#lang ul, #lang ul li
+	{
+	list-style:none;
+	}
+
+#lang ul li
+	{
+	float:left; margin-right:5px;
+	}
+
+#menu
+	{
+	width:980px;
+	background:url(../img/bg-men.jpg);
+	/*overflow:hidden;*/
+	margin-top:10px;
+	height:40px;
+	}
+	
+/*#menu ul
+	{
+	list-style:none;
+	margin:0;
+	padding:0;
+	}
+
+#menu ul li
+	{
+	margin-left:5px;
+	display:block;
+	float:left;
+	padding:13px;
+	}
+
+#menu ul .activo
+	{
+	background:#990000;
+	}
+
+#menu ul .activo a
+	{
+	color:#FFFFFF;
+	}
+
+#menu ul li:hover
+	{
+	background:#990000;
+	}
+
+
+#menu ul li a
+	{
+	font-size:14px;
+	}
+
+#menu ul li a:hover
+	{
+	color:#FFFFFF;
+	}*/
+
+
+*.droppy
+	{
+	/*background-color: #30A8C3;*/
+	height: 24px;
+	}
+.droppy *:hover
+	{
+	background-color: none;
+	}
+.droppy a
+	{
+	border-right: 1px solid white;
+	color:#0051A3;
+	font-size: 14px;
+	padding: 12.5px;
+	line-height: 1;
+	}
+.droppy li.hover a
+	{
+	background-color: #CCCCCC;
+	}
+.droppy ul
+	{
+	top: 39px;
+	}
+.droppy ul li a
+	{
+	background-color: #CCCCCC;
+	}
+.droppy ul a.has-subnav
+	{
+	background-color: #CCCCCC;
+	}
+.droppy ul a.hover
+	{
+	background-color:#0051A3;
+	color:#FFFFFF;
+	}
+.droppy ul a
+	{
+	border-bottom: 1px solid white;
+	border-right: none;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+	}*/
+/* .droppy ul a { border-bottom: none; } - I also needed this for IE6/7 */
+
+
+
+#contenido-pagina
+	{
+	padding:15px;
+	}
+
+#footer
+	{
+	padding:15px;
+	}
+
+

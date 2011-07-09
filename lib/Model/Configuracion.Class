@@ -1,0 +1,80 @@
+<?php
+
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ * Description of Configuracion
+ *
+ * @author User
+ */
+require ("aut_config.inc.php");
+include ("aut_login.inc.php");
+require_once 'sql.php';
+class Configuracion {
+    //put your code here
+    private $objsql;
+    private $id;
+    private $email;
+    private $prueba;
+    
+
+    public function setObjsql($objsql) {
+        $this->objsql = $objsql;
+    }
+
+    public function setId($id) {
+        $this->id = $id;
+    }
+
+    public function setEmail($email) {
+        $this->email = $email;
+    }
+
+    public function setPrueba($prueba) {
+        $this->prueba = $prueba;
+    }
+
+        public function getObjsql() {
+        return $this->objsql;
+    }
+
+    public function getId() {
+        return $this->id;
+    }
+
+    public function getEmail() {
+        return $this->email;
+    }
+
+    public function getPrueba() {
+        return $this->prueba;
+    }
+
+        
+    public function __construct($id="",$email="") {
+        
+        $this->objsql= new sql();
+        $this->id=$id;
+        $this->email=$email;
+        
+    }
+    public function __destruct() {
+        $this->objsql=NULL;
+    }
+    
+   
+    public function add(){
+        
+    }
+    public function edit(){
+        
+    }
+    public function delete(){
+        
+    }
+}
+
+?>

@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document for top slider 
+*/
+
+ul#slide_nav li
+	{
+    list-style:none;
+	}
+
+#slide_nav
+	{
+    left: 20px !important;
+    top: 165px !important;
+    width: 90px;
+	}
+
+#content-slide
+	{
+	position:relative;
+	}
+
+#slide li
+	{
+    width: 960px;
+    height: 280px;
+	}
+
+#slide li h2
+	{
+	color:#FFFFFF;
+	font-size:25px;
+	margin-top:30px;
+	margin-left:20px;
+	}
+
+#slide li span
+	{
+	display:block;
+    width: 230px;
+	color:#FFFFFF;
+	margin-top:5px;
+	margin-left:20px;
+	}
+
+
+#slide_control li
+	{
+    list-style: none;
+    display: block;
+    float:left;
+	}
+#prev_button, #next_button, #pause_button, #last_button
+	{
+    margin-left: 0px;
+	}
+
+#slide_control
+	{
+    left:540px;
+    position:absolute;
+    top:238px;
+    z-index:5000;
+	}
+
+
+.fade
+	{
+	margin-bottom: 2em;
+	}
+
+.fade p
+	{
+	margin-bottom: 2em;
+	text-align: center;
+	width: 100%;
+	background: #fff;
+	}
+
+
+#slide_nav li:hover, #pause_button, .prev_button, 
+.next_button, #first_button, #last_button
+	{
+	cursor: pointer;
+	cursor: hand;
+	z-index: 5000;
+	}
+
+#slide_nav li span, #pause_button span, 
+.prev_button span, .next_button span, 
+#first_button span, #last_button span, 
+#hover_next_button span, 
+#hover_prev_button span, #water_mark span
+	{
+	margin-left: -10000px;
+	}
+#slide_nav li, #pause_button, .prev_button, 
+.next_button, #first_button, #last_button, #water_mark
+	{
+	background-repeat: no-repeat;
+	overflow: hidden;
+	top: 0px;
+	}
+ul#slide_nav
+	{
+	position: absolute;
+	z-index: 5000;
+	}
+ul#slide_nav li
+	{
+	background-image: url(../img/button.png);
+	display: block;
+	float: left;
+	height: 18px;
+	padding-top:2px;
+	list-style: none;
+	margin: 0 3px 0 0;
+	width: 20px;
+	text-align:center;
+	color:#FFFFFF;
+	font-weight:bold;
+	}
+ul#slide_nav li:hover
+	{
+	
+	}
+ul#slide_nav li#button_selected
+	{
+	background-image: url(../img/button_selected.png);
+	}
+ul#slide_nav li#button_selected:hover
+	{
+	}

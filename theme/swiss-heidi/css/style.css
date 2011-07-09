@@ -1,0 +1,347 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+	{
+	padding:0;
+	margin:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	}
+
+* img
+	{
+	border: none;
+	}
+
+.clear
+	{
+	clear:both;
+	}
+
+body
+	{
+	background: url(../img/bg_top.jpg) no-repeat top center #E6EBEF;
+	font-size:12px;
+	}
+
+/* -- HEADER -- */
+#header
+	{
+	
+	width:960px;
+	margin:4px auto;
+	}
+
+#header h1
+	{
+	width:175px;
+	float:left;
+	margin-left:10px;
+	}
+
+#header h1 a
+	{
+	background: url(../img/logo.png);
+	width:175px;
+	height:124px;
+	display:block;
+	}
+
+
+#header h1 a span
+	{
+	display:none;
+	}
+
+#header #menu-top
+	{
+	float:right;
+	width:700px;
+	text-align:right;
+	margin-right:10px;
+	}
+
+
+#header #menu-top marquee
+	{
+	display:block;
+	padding:5px;
+	}
+
+#header #menu-top .pointer
+	{
+	margin-top:58px;
+	color:#FFFFFF;
+	}
+
+#header #menu-top .pointer div
+	{
+	font-size:24px;
+	padding-bottom:20px;
+	} 
+
+
+#header #menu-top ul
+	{
+	list-style:none;
+	padding-top:5px;
+	}
+
+#header #menu-top ul li
+	{
+	list-style:none;
+	float:right;
+	margin-left:5px;
+	color:#FFFFFF;
+	}
+
+#header #menu-top ul li a
+	{
+	color:#FFFFFF;
+	text-decoration:none;
+	}
+
+#header #menu-top ul li a:hover
+	{
+	color: #CCCCCC;
+	text-decoration:none;
+	}
+
+
+
+
+
+
+
+/* -- FIN HEADER -- */
+
+
+
+
+/* -- LOGIN -- */
+#login
+	{
+	width:300px;
+	margin:20px auto;
+	padding:10px;
+	border:1px solid #999999;
+	background:#CCCCCC;
+	}
+
+#login input
+	{
+	padding:5px;
+	}
+
+#login h1
+	{
+	font-size:18px;
+	margin:5px 0;
+	}
+#login p
+	{
+	font-size:12px;
+	margin:5px 0;
+	}
+
+
+
+/* -- CONTENT -- */
+.contenido:first-child{
+	padding: 15px 35px 0 35px;
+	overflow:hidden;
+}
+
+.contenido{
+	padding: 10px 35px 0 35px;
+	overflow:hidden;
+}
+
+.contenido .box:first-child{
+	background:url("../img/img0.jpg");
+}
+
+.contenido .dos{
+	background:url("../img/img1.jpg");
+}
+
+.contenido .tres{
+	background:url("../img/img2.jpg");
+}
+
+#content
+	{
+	overflow:hidden;
+	width:960px;
+	margin:0 auto;
+	background:#4B4746;
+	padding-bottom:25px;
+	/*border:1px solid #00CC33;	*/
+	}
+
+
+.box
+	{
+	width:290px;
+	height:225px;
+	margin-right:5px;
+	border.radius: 5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:#C2C2C2 1px solid;
+	float:left;
+	}
+ .nomargin{
+ 	margin:0;
+ }
+
+.margin-right5
+	{
+	margin-right:5px;
+	}
+
+.margin-left35
+	{
+	}
+
+.margin-left5
+	{
+	margin-left:5px;
+	}
+
+
+.box-big
+	{
+    -moz-border-radius: 5px 5px 5px 5px;
+    border: 1px solid #C2C2C2;
+    float: left;
+    height: 243px;
+    padding: 10px;
+    width: 487px;
+	background:#4B4746;
+	color: #FFFFFF;
+	}
+
+.box-big h2{
+	font-size:20px;
+	font-weight:bold;
+	margin-bottom:5px;
+	
+}
+
+.box-big p{
+		margin-bottom:5px;
+}
+.box-medium
+	{
+	width:350px;
+	padding:10px;
+	/*height:60px; */
+	border.radius: 5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background:#fff;
+	border:#C2C2C2 1px solid;
+	float:left;
+	}
+
+.box-medium h2{
+	font-size:16px;
+	margin-bottom:5px;
+	font-weight:normal;
+}
+
+.box-medium .medium-left{
+	float:left;
+	width:260px;
+}
+.box-medium .medium-right{
+	float:left;
+	width:80px;
+	padding-left:10px;
+}
+
+.medium-left:first-child img{
+	float:left;
+}
+
+.medium-left:first-child p{
+	padding-left:10px;
+	width:230px;
+	float:left;
+}
+
+.margin-top5
+	{
+	margin-top:5px;
+	}
+/* -- FIN CONTENT -- */
+
+
+
+
+/* -- FOOTER -- */
+#footer{
+	overflow: hidden;
+	
+    color: #FFFFFF;
+	width:960px;
+	padding-bottom:20px;
+	margin:0 auto;
+	background:#4B4746 url(../img/bg_footer.jpg) repeat-x top;
+}
+
+#footer .box{
+	width:190px;
+	border:0;
+	height: auto;
+}
+#footer .box:first-child{
+	width:190px;
+	padding-left:90px;
+}
+
+#footer li{
+	display:inline;
+	float:left;
+	padding:10px 37px 10px 10px;
+}
+
+#footer li a{
+	color:#4B4746;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+#footer ul{
+	overflow:hidden;
+	height: 40px;
+	padding-left: 150px;
+}
+#footer-right{
+	width:360px;
+	float:left;
+	padding-top:30px;
+}
+
+#footer-right p{
+	margin-bottom:10px;
+}
+#footer-right img{
+	padding-left:5px;
+	cursor:pointer;
+}
+
+#footer-left{
+	width:500px;
+	padding-top:30px;
+	float:left;
+	overflow:hidden;
+}
+#footer-left .box p{
+    float: left;
+	
+}
+/* -- FIN FOOTER -- */
